@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">  <!-- External CSS -->
+    <style>  
+        /* Internal CSS */
+        .intro {
+            display: flex;
+            padding: 60px 9% 0;
+            align-items: center;
+            height: 100vh;
+            color: #f1f7ed;
+            text-align: left;
+            gap: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <a href="#" class="logo">ANIKKA</a>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="intro">
+        <div class="info">
+            <h2>About Me</h2>
+            <p>I'm a 3rd year student in Adamson University, taking up BS Information Technology.
+                I enjoy learning new skills, creating projects, and improving my knowledge in the IT field.
+                Through my studies, I continue to develop my technical and problem-solving skills as I prepare
+                for a future career in the technology industry
+            </p>
+            <div class="btn">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-gmail' ></i></a>
+                <a href="#"><i class='bx bxl-messenger' ></i></a>
+            </div>
+        </div>
+
+        <div class="profile">
+            <div class="prof-box">
+                <div class="prof-item">
+                    <img src="profile.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <div class="card">
+                <img src="camera.png" alt="Project 1">
+                <div class="card-content">
+                    <h3>Camera Shop</h3>
+                    <p>A camera shop ordering system that allows users to view available camera products, enter the quantity they want, and calculate or proceed with their order.</p>
+                    <a href="" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="car.png" alt="Project 2">
+                <div class="card-content">
+                    <h3>Auto Registry</h3>
+                    <p>A vehicle management system that allows users to track registered automobiles, monitor active insurance and registration statuses, and manage automotive documentation.</p>
+                    <a href="" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h3>Anikka Gonzales • 2026</h3>
+        <p>&copy; My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
